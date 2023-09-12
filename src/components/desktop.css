@@ -1,0 +1,119 @@
+    /* Main container with a blue gradient background */
+    .main-container {
+        background: linear-gradient(to left, #59b6d3, #f9fafa);
+        padding: 20px;
+        text-align: center;
+    }
+
+  
+    .custom-button {
+        border: 2px solid #59b6d3;
+        color: black;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        border-radius: 10px;
+    }
+
+
+    .black-bg {
+        background-color: #000;
+    }
+
+
+    .transparent-bg {
+        background-color: transparent;
+    }
+
+    .custom-button:hover {
+        background-color:black;
+        color: #fff;
+    }
+
+  
+    .card-container {
+        background-color: #fff; 
+        padding: 10px; 
+        margin: 10px; 
+        border-radius: 10px; 
+        width: calc(33.33% - 20px); 
+
+    }
+
+   
+    .card-container:hover {
+        transform: translateY(-10px);
+    }
+
+   
+    .mobile-container {
+        display: none;
+    }
+
+ 
+    .card-container-row {
+        display: flex; 
+        justify-content: space-between;
+    }
+
+    .amount {
+        color: #000000;
+        font-weight: bold;
+        font-size: 50px;
+        font-family: roboto;
+    }
+
+    .ruppee {
+        color: black;
+        font-size: 15px;
+        font-family: roboto;
+        margin-top: 57px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .list-container {
+        list-style-type: none;
+        color: black;
+        font-family: roboto;
+        font-size: 15px;
+    }
+
+    .item-container {
+        display: flex;
+        margin-bottom: 4px;
+    }
+    .top-container {
+        padding: 15px;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+.amount{
+    font-size: 70px;
+}
+.rupee{
+    font-size: 15px;
+
+}
+
+.trial{
+    background-color:#aad0dc;
+}
+.paragraph{
+    text-align: right;
+    font-size: 17px;
+    font-weight: 600;
+}
+.head{
+    text-align: right;
+}
+.desktop-container{
+    padding: 10px;
+    margin: 5px;
+}
+
+
